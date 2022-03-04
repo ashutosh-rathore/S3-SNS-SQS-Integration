@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "sqs:*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "SNS:Subscribe",
+            "Resource": "arn:aws:sns:us-east-1:287444288085:*"
+        }
+    ]
+}
