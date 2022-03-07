@@ -11,6 +11,6 @@ terraform {
 
 provider "aws" {
   profile = "Account2"
-  shared_credentials_files = ["/Users/ashutosh/.aws/credentials"]
+  shared_credentials_files = ["$HOME/.aws/credentials"]
   region       = "us-east-1"
 }
